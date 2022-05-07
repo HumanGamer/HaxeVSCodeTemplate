@@ -1,4 +1,4 @@
---debug
+#--debug
 #-D dump=pretty
 
 -cp source
