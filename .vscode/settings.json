@@ -1,0 +1,30 @@
+{
+    "haxe.configurations": [
+        {
+            "label": "HashLink/JIT",
+            "args": [
+                "build.hxml",
+                "-hl",
+                "export/run.hl",
+                "-cmd",
+                "hl export/run.hl"
+            ]
+        },
+        {
+            "label": "HashLink/Interp",
+            "args": [
+                "build.hxml",
+                "-hl",
+                "export/run.hl",
+                "-D",
+                "interp"
+            ]
+        }
+    ],
+    "[haxe]": {
+        "editor.formatOnSave": true
+    },
+    "haxe.displayServer": {
+        "arguments": ["-v"]
+    }
+}

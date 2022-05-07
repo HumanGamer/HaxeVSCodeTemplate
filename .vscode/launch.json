@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "HashLink/JIT",
+            "type": "hl",
+            "request": "launch",
+            "preLaunchTask": "HL/JIT (debug)",
+            "hxml": "build.hxml",
+            "cwd": "${workspaceFolder}",
+            "program": "export/run.hl",
+        }
+    ]
+}
